@@ -1,6 +1,6 @@
 # Hi there, I'm Adeela Tariq! 👋
 
-I am a **Computer Science Student** at the **University of Lahore**, specializing in **Data Analytics and Artificial Intelligence**. I am passionate about uncovering insights from data, building smart models, and documenting my learning journey.
+I am a **Computer Science Student** at the **University of Lahore**, specializing in **Data Analytics and Generative Artificial Intelligence**. I am passionate about uncovering insights from data, building smart models, and documenting my learning journey.
 
 ---
 
