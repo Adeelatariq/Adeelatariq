@@ -1,16 +1,18 @@
 # Hi there, I'm Adeela Tariq! 👋
 
-I am a **5th Semester Computer Science Student** at the **University of Lahore**. I am passionate about software development, deep-diving into core programming concepts, and documenting my growth one commit at a time.
+I am a **Computer Science Student** at the **University of Lahore**, specializing in **Data Analytics and Artificial Intelligence**. I am passionate about uncovering insights from data, building smart models, and documenting my learning journey.
 
 ---
 
 ### 💻 What I'm Focused On
-- **Languages:** C++ (Core & OOP Concepts)
-- **Concepts:** Exploring Data Structures, Memory Management, and Pointer Logic
-- **Current Goal:** Leveling up my problem-solving skills and building clean, efficient code
+- **Core Languages:** Python, SQL, C++
+- **Fields of Interest:** Data Analytics, Machine Learning, and AI Development
+- **Current Goal:** Leveling up my data manipulation skills and exploring AI framework basics
 
 ---
 
 ### 📬 Connect with Me
 - **Email:** [tariqadeela394@gmail.com](mailto:tariqadeela394@gmail.com)
 - **GitHub Profile:** [github.com/Adeelatariq](https://github.com/Adeelatariq)
+
+
