@@ -1,36 +1,55 @@
-# Hi, I'm Adeela Tariq 👋
+# Tutoring Management System — Database Schema
 
-CS student at the University of Lahore, specializing in **Data Analytics & AI**. I like turning raw data into something that actually makes sense — and I'm currently deepening my skills in Python, SQL, and machine learning fundamentals.
+A relational database schema for a **Tutoring Management System**, designed using an ERD (Entity Relationship Diagram) and EERD (Enhanced Entity Relationship Diagram), and translated into SQL.
 
-## 🔭 What I'm focused on
-- Building a strong foundation in **data manipulation & analysis** (Pandas, SQL)
-- Exploring **machine learning basics** and how models are trained/evaluated
-- Practicing **C++** for core programming fundamentals
-- Learning how to structure and document real projects, not just scripts
+## 📌 Overview
 
-## 🧰 Core skills
-`Python` `SQL` `C++` `Pandas` `NumPy` `Git & GitHub` `Generative AI` `Prompt Engineering` `LLMs` `Cloud Architecture Basics`
+This project models the core entities and relationships involved in managing a tutoring service — connecting students with tutors, tracking parents, subjects taught, tutoring sessions, and session records.
 
-## 🎓 Certifications
-- Google Advanced Data Analytics Professional Certificate — Google (via Coursera) *(In Progress)*
-- Prompt Design in Agent Platform — Google Cloud *(May 2026)*
-- Introduction to Responsible AI — Google Cloud *(May 2026)*
-- Responsible AI: Applying AI Principles with Google Cloud
-- Introduction to Large Language Models (LLMs) — Google Cloud
-- Introduction to Generative AI — Google Cloud
-- Data Science & Analytics Certification — HP LIFE *(Feb 2026)*
-- Introduction to Cybersecurity Awareness — HP LIFE *(Feb 2026)*
+The schema was designed by first mapping out entities and relationships in an ERD/EERD, then converting that design into a working SQL schema with tables, primary keys, foreign keys, and relationships.
 
-## 📌 Projects
-- **[learning-journey](https://github.com/Adeelatariq/learning-journey)** — my ongoing collection of CS learning exercises and practice projects.
+## 🗂️ Entities / Tables
 
-*(More projects coming soon as I build out my data analytics & ML portfolio.)*
+| Table | Description |
+|-------|-------------|
+| **Student** | Stores student information (e.g., name, contact details, grade level) |
+| **Parent** | Stores parent/guardian information linked to one or more students |
+| **Tutor** | Stores tutor information (e.g., name, contact, expertise) |
+| **Subject** | Stores subjects offered for tutoring (e.g., Math, Physics, English) |
+| **Session** | Represents a scheduled tutoring session, linking a student, tutor, and subject |
+| **Record** | Stores records/outcomes of completed sessions (e.g., attendance, performance notes) |
 
-## 📫 Connect with me
-- 💼 [LinkedIn](https://www.linkedin.com/in/adeela-tariq-3aba0b40b/)
-- 📧 tariqadeela394@gmail.com
+## 🔗 Relationships
 
----
-⭐️ Always open to collaborating on data & AI projects — feel free to reach out!
+- A **Parent** can be linked to one or more **Students**.
+- A **Student** can attend multiple **Sessions**.
+- A **Tutor** can conduct multiple **Sessions**.
+- Each **Session** is associated with one **Subject**.
+- Each **Session** generates a corresponding **Record**.
 
+## 🛠️ How to Use
 
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Adeelatariq/Adeelatariq.git
+   ```
+2. Open the `schema.sql` file in your preferred SQL client (MySQL Workbench, pgAdmin, SQLite browser, etc.).
+3. Run the script to create the database tables:
+   ```bash
+   mysql -u your_username -p your_database < schema.sql
+   ```
+   *(Adjust the command based on your database system — MySQL, PostgreSQL, SQLite, etc.)*
+
+## 📁 Files
+
+- `schema.sql` — Contains the full SQL schema (table definitions, keys, and relationships) derived from the ERD/EERD design.
+
+## 📖 Design Process
+
+1. **ERD** — Mapped out the basic entities (Student, Parent, Tutor, Subject, Session, Record) and their relationships.
+2. **EERD** — Refined the design with additional constraints, keys, and relationship details.
+3. **SQL Conversion** — Translated the finalized EERD into SQL `CREATE TABLE` statements, including primary keys, foreign keys, and constraints.
+
+## ✍️ Author
+
+Created by [Adeelatariq](https://github.com/Adeelatariq)
