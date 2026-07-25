@@ -31,12 +31,6 @@ CS Student @ University of Lahore | Data Analytics & Generative AI | Exploring P
 
 ---
 
-### 📊 GitHub Stats
-
-![Adeela's GitHub stats](https://github-readme-stats.vercel.app/api?username=Adeelatariq&show_icons=true&theme=radical)
-
----
-
 ### 📬 Connect with Me
 
 - **Email:** tariqadeela394@gmail.com
