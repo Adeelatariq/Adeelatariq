@@ -35,3 +35,4 @@ CS Student @ University of Lahore | Data Analytics & Generative AI | Exploring P
 
 - **Email:** tariqadeela394@gmail.com
 - **GitHub Profile:** [github.com/Adeelatariq](https://github.com/Adeelatariq)
+- 📊 Tableau Public: public.tableau.com/app/profile/adeela.tariq
